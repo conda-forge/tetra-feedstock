@@ -1,5 +1,5 @@
 {% set name = "tetra" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tetra-{{ version }}.tar.gz
-  sha256: 2f2fa3f0fd496f1089de391dbf5224c5e9bf7ebc487f572a4d39fe911b81338f
+  sha256: e4b7ce8cef41cf6572a8996a6b8774bfa206cbf7b9c7eb0b0697a67dbd53a040
 
 build:
   noarch: python
