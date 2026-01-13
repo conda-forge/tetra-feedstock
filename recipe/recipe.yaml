@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tetra
-  version: "0.6.7"
+  version: "0.6.9"
   python_min: '3.11'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tetra-${{ version }}.tar.gz
-  sha256: 7ced4eb3d1e943718b877d0c1a0c0e7bdbbe9698cdbb8fcd871b8c243d99c676
+  sha256: 4575efd3b44ccd781cd56a2dd6076cc96d34960b37f69e8da3d1d3c4aa595557
 
 build:
   number: 0
