@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: tetra
   version: "0.7.0"
-  python_min: '3.11'
+  python_min: '3.13'
 
 package:
   name: ${{ name|lower }}
