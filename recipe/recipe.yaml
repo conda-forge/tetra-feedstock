@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tetra
-  version: "0.7.0"
+  version: "0.7.1"
   python_min: '3.13'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tetra-${{ version }}.tar.gz
-  sha256: 7047fded4965ebcf6a6aa50e98e08f404b6e027af372790b326be01bdf82c557
+  sha256: 9529185945ea888a398706812ae4b3a64306a4885d1ec32c6d7d413ada1036c6
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - cryptography >=37.0.1
-    - django >=3.2.0
+    - django >=5.2.3
     - python-dateutil >=2.8.2
     - sourcetypes >=0.0.4
 
